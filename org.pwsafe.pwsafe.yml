@@ -35,8 +35,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/wxWidgets/wxWidgets/
-        tag: v3.2.2.1
-        commit: a812fffda3fe686c94e24bff27e8effd96e4de64
+        tag: v3.2.4
+        commit: 085a136dcb11aca5b1102193f006f8056d5f0876
 
   - name: Xerces-C
     buildsystem: cmake-ninja
