@@ -28,10 +28,8 @@ modules:
   - name: wxwidgets
     cleanup:
       - /bin
-      - /include
       - /lib/cmake
       - /lib/wx
-      - /share/bakefile
     sources:
       - type: git
         url: https://github.com/wxWidgets/wxWidgets/
