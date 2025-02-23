@@ -11,8 +11,8 @@ finish-args:
   - --share=ipc
   - --filesystem=xdg-documents
   - --env=PWS_HELPDIR=/app/share/passwordsafe/help/
-  # YubiKey USB access
-  - --device=all
+  # YubiKey requires USB access
+  - --device=usb
 cleanup:
   - '/include'
 
