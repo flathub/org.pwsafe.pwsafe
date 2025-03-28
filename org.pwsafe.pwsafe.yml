@@ -92,7 +92,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/pwsafe/pwsafe/
-        tag: 1.21.0
+        tag: 1.21.0fp
         commit: af3961c2c09cb78a67a71c1e629e1656292d2f23
       - type: shell
         commands:
