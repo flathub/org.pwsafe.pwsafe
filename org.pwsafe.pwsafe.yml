@@ -5,6 +5,7 @@ sdk: org.freedesktop.Sdk
 command: pwsafe
 rename-icon: pwsafe
 rename-desktop-file: pwsafe.desktop
+require-version: '1.10.0'
 finish-args:
   - --socket=fallback-x11
   - --socket=wayland
