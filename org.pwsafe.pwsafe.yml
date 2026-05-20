@@ -50,16 +50,6 @@ modules:
       - /lib/cmake
       - /share/doc/xerces-c
 
-  - name: libusb1
-    buildsystem: autotools
-    config-opts:
-      - --disable-static
-    sources:
-      - type: git
-        url: https://github.com/libusb/libusb.git
-        tag: v1.0.27
-        commit: d52e355daa09f17ce64819122cb067b8a2ee0d4b
-
   - name: libyubikey
     buildsystem: autotools
     config-opts:
