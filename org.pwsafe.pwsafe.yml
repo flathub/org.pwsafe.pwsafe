@@ -85,8 +85,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/pwsafe/pwsafe/
-        tag: 1.24.0
-        commit:  03bee4d2d68d244b020f1b5fea76cf895e360eb4
+        tag: 1.25.0
+        commit:  da4460325ac41ccd798a52d9b250ef4d5c768abc
       - type: shell
         commands:
         # Put the ykpers headers where the build can find them
