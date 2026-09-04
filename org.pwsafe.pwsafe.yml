@@ -7,11 +7,12 @@ rename-icon: pwsafe
 rename-desktop-file: pwsafe.desktop
 separate-locales: false
 finish-args:
-  - --socket=fallback-x11
+  - --socket=x11
   - --socket=wayland
   - --share=ipc
   - --filesystem=xdg-documents
   - --env=PWS_HELPDIR=/app/share/passwordsafe/help/
+  - --env=PWS_XMLDIR=/app/share/passwordsafe/xml/
   # YubiKey USB access
   - --device=all
 cleanup:
@@ -34,8 +35,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/wxWidgets/wxWidgets/
-        tag: v3.2.4
-        commit: 085a136dcb11aca5b1102193f006f8056d5f0876
+        tag: v3.2.11
+        commit: 749625e0ea4d70d1f75494aa52231d835531a618
 
   - name: Xerces-C
     buildsystem: cmake-ninja
